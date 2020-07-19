@@ -1,4 +1,5 @@
-## make you setup beautiful and handy
+## Awesome-Customizations 
+### make you setup beautiful and handy
 This repo has
 1. A collection of best customizations for various apps like iterm, sublime etc to make them handy and 
    especially beautiful
