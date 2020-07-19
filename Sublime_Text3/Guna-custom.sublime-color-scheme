@@ -1,0 +1,264 @@
+{
+    "name": "Guna",
+    "author": "poucotm",
+    "globals":
+    {
+        "foreground": "#E6E6E6",
+        "background": "#161C23",
+        "caret": "#FFAA00",
+        "invisibles": "#FF0000",
+        "line_highlight": "#38414c",
+        "selection": "#3A5166",
+        "selection_border": "#FF1C2300",
+        "inactive_selection": "#1E2A35",
+        "gutter": "#161C23",
+        "gutter_foreground": "#515F66",
+        "shadow": "#000000",
+        "guide": "#20272E",
+        "active_guide": "#314559",
+        "stack_guide": "#1A2633",
+        "find_highlight_foreground": "#000000",
+        "find_highlight": "#FFEE99"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "#677A83",
+            "font_style": "italic"
+        },
+        {
+            "name": "String",
+            "scope": "string, string.quoted keyword.other",
+            "foreground": "#FFEE99"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric, constant.language",
+            "foreground": "#009FBF"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "#009FBF"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "#D9D9D9"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.function",
+            "foreground": "#FF3377"
+        },
+        {
+            "name": "Section",
+            "scope": "entity.name.section",
+            "foreground": "#90D982"
+        },
+        {
+            "name": "Parameter",
+            "scope": "meta.method.parameters",
+            "foreground": "#D9D9D9"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "#FA9028"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "#FF0000"
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "#EBBC8D",
+            "font_style": "italic"
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.modifier",
+            "foreground": "#EBDB8D",
+            "font_style": "italic"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "foreground": "#AAFF99"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "#00D4FF",
+            "font_style": "italic"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "foreground": "#FF3377"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "foreground": "#00C4EB",
+            "font_style": "italic"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "#FF3377"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "#009FBF"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "#EBDB8D",
+            "font_style": "italic"
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable",
+            "foreground": "#FF3377"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "#F8F8F0",
+            "background": "#FF3377"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "#F8F8F0",
+            "background": "#BC82D9"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "#EBBC8D"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "#90D982"
+        },
+        {
+            "name": "JSON",
+            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string, source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string, source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string, source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string, source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "#EBBC8D"
+        },
+        {
+            "name": "Html punctuations tags",
+            "scope": "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag",
+            "foreground": "#EBBC8D88"
+        },
+        {
+            "name": "Markup definition",
+            "scope": "punctuation.definition.heading",
+            "foreground": "#FA9028"
+        },
+        {
+            "name": "Markup link",
+            "scope": "string.other.link",
+            "foreground": "#EBBC8D"
+        },
+        {
+            "name": "Markup underline link",
+            "scope": "markup.underline.link",
+            "foreground": "#00B5D9"
+        },
+        {
+            "name": "Markup list",
+            "scope": "meta.paragraph.list",
+            "foreground": "#EBDB8D"
+        },
+        {
+            "name": "Markup Raw Inline",
+            "scope": "markup.raw.inline",
+            "foreground": "#EBDB8D"
+        },
+        {
+            "name": "Markdown separator",
+            "scope": "meta.separator",
+            "foreground": "#FA9028",
+            "background": "#26313D",
+            "font_style": "bold"
+        },
+        {
+            "name": "diff.header",
+            "scope": "meta.diff, meta.diff.header",
+            "foreground": "#FF3377"
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "#77B36B"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "#90D982"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "#FF3377"
+        },
+        {
+            "name": "Decorator",
+            "scope": "source.python meta.statement.decorator support.function",
+            "foreground": "#90D982",
+            "font_style": "italic"
+        },
+        {
+            "name": "Decorator",
+            "scope": "source.python meta.statement.decorator keyword",
+            "foreground": "#EBDB8D",
+            "font_style": "italic"
+        },
+        {
+            "name": "Decorator",
+            "scope": "source.java meta.class meta.class.body storage.type.annotation",
+            "foreground": "#90D982",
+            "font_style": "italic"
+        },
+        {
+            "name": "Module name",
+            "scope": "entity.name.type.module",
+            "foreground": "#AAFF99"
+        },
+        {
+            "name": "Section",
+            "scope": "source.systemverilog entity.name.section",
+            "foreground": "#77B36B"
+        },
+        {
+            "name": "Section",
+            "scope": "source.verilog entity.name.section",
+            "foreground": "#77B36B"
+        },
+        {
+            "name": "SublimeLinter Error",
+            "scope": "sublimelinter.mark.error",
+            "foreground": "#D02000"
+        },
+        {
+            "name": "SublimeLinter Gutter Mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "#FFFFFF"
+        },
+        {
+            "name": "SublimeLinter Warning",
+            "scope": "sublimelinter.mark.warning",
+            "foreground": "#DDB700"
+        }
+    ]
+}

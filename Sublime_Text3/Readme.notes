@@ -1,0 +1,147 @@
+---- Open this file in sublime after my configuration -----
+
+-----------------------------------------------------------
+    Useful Packages
+-----------------------------------------------------------
+
+1. Alignment
+2. EditorConfig
+3. GitGutter
+4. Guna (theme)
+5. MarkdownPreview
+6. Material Theme
+7. Materialize (theme)
+8. Notes
+9. One Dark Color Scheme
+10. Package Control
+11. Package Resource Viewer
+12. PlainTasks
+13. SideBarEnhancements
+14. Seti_UI
+15. SublimeGit
+16. SyncedSideBar
+17. Terminus
+
+
+-----------------------------------------------------------
+    My personal fav color_scheme 
+-----------------------------------------------------------
+!!Guna-custom.sublime-color-scheme!! attached in this folder
+"theme": "Guna.sublime-theme"
+
+syntax specific color_schemes
+<.notes>
+"color_scheme": "Monokai-Soda-custom-guna.sublime-color-scheme"
+"color_scheme": "Packages/Materialize/schemes/Monokai-Soda-custom-guna.sublime-color-scheme"
+
+
+
+
+-----------------------------------------------------------
+Packages/User/Preferences.sublime-settings
+-----------------------------------------------------------
+
+[json]
+
+{
+	"caret_style": "phase",
+	"color_scheme": "Packages/Guna/themes/Guna-custom.sublime-color-scheme",
+	"copy_with_empty_selection": false,
+	"drag_text": false,
+	"ensure_newline_at_eof_on_save": true,
+	"font_options":
+	[
+		"no_round"
+	],
+	"font_size": 11,
+	"gn_hide_tab_dropdown": true,
+	"gn_overlay_scroll_bars": true,
+	"gn_sb_cnvx": true,
+	"gn_sidebar_box": true,
+	"gnc_001": false,
+	"gnc_002": true,
+	"gnc_h12": true,
+	"gnc_m00": true,
+	"gnc_w6m14": true,
+	"gni_003": false,
+	"gnwidg1": true,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Anaconda",
+		"Vintage"
+	],
+	"predawn_tabs_active_underline": true,
+	"predawn_tabs_small": true,
+	"theme": "Guna.sublime-theme"
+}
+
+[end]
+
+
+
+-----------------------------------------------------------
+    Packages/User/Default (OSX).sublime-keymap
+-----------------------------------------------------------
+
+[json]
+
+[
+	// movement key bindings within project like it is for phpstorm to jump_back and forward
+	{ "keys": ["super+alt+left"], "command": "jump_back" },
+	{ "keys": ["super+alt+right"], "command": "jump_forward" },
+	{ "keys": ["option+o"], "command": "prompt_open_project" },
+	// manual settings for terminus
+	{ "keys": ["super+`"], "command": "toggle_terminus_panel" },
+	// git related custom key bindings . Package - SublimeGit
+	{ "keys": ["super+g"], "command": "git_status" },
+	// custom key bindings for package - Alignment
+	{ "keys": ["super+shift+l"], "command": "alignment" }
+]
+
+[end]
+
+
+-----------------------------------------------------------
+    Packages/User/Default (OSX).sublime-mousemap
+-----------------------------------------------------------
+[json]
+
+[
+	// goto_definition and goto_reference settings using mouse as in phpstorm
+    {
+        "button": "button1", 
+        "count": 1, 
+        "modifiers": ["option"],
+        "press_command": "drag_select",
+        "command": "goto_definition"
+    },
+    {
+        "button": "button1", 
+        "count": 1, 
+        "modifiers": ["option","shift"],
+        "press_command": "drag_select",
+        "command": "goto_reference"
+    }
+]
+
+[end]
+
+-----------------------------------------------------------
+    Guna-dark.sublime-settings
+-----------------------------------------------------------
+
+[json]
+
+// Specify your own settings. You don't need to restart
+{
+	"tab_font.size": 11,
+	"sidebar_font.size": 11,
+	"status_bar_font.size": 11,
+	"panel_font.size": 11,
+}
+
+[end]
+
+
+
