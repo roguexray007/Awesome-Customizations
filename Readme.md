@@ -10,3 +10,5 @@ This repo has
 ![iterm view after all settings](iterm/iterm.png)
 #### sublime text
 ![sublime view](Sublime_Text3/Sublime-Guna.png)
+
+**Checkout the various apps folder for their readme**
