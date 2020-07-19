@@ -1,3 +1,5 @@
+### checkout readme.notes for setup like below
+
 ### Make your sublime text beautiful
 ![sublime view](Sublime-Guna.png)
 
